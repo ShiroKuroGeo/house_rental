@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+}
+body{
+    background-color: blanchedalmond;
+    margin: 100px auto;
+}
+.billing-table{
+    border-collapse: collapse ;
+    width: 25em;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 10px 30px 5px rgba(0, 0, 0, .15);
+    margin: 25px auto ;
+}
+.billing-table thead{
+    align-items: center;
+}
+.billing-table thead tr{
+    border-bottom: 1px dashed grey;
+}
+.billing-table tfoot tr{
+    border-top: 1px dashed grey;
+}
+.billing-table thead tr td{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: orange;
+    padding: 10px;
+}
+.billing-table tfoot tr td{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: green;
+    padding: 8px;
+}
+.billing-table tbody tr td{
+    letter-spacing: 0.5px;
+    padding: 8px;
+}
+.billing-table thead tr td:nth-last-child(1),
+.billing-table tbody tr td:nth-last-child(1),
+.billing-table tfoot tr td:nth-last-child(1)
+{
+    text-align: right;
+}
+.container {
+    margin: left;
+}
